@@ -1,0 +1,16 @@
+<p>list works!</p>
+<table>
+    <tr border="1">
+        <th>ID</th>
+        <th>Name</th>
+
+    </tr>
+   <tr *ngFor = "let row of empListData">
+    <td>
+        {{row.id}}
+    </td>
+    <td>
+        {{row.name}}
+    </td>
+   </tr>
+</table>
